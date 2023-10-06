@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+
 function App() {
+  
+    // this is the url you need to use for fetching resources'http://localhost:3004/data'
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Temates name</h1>
+      <div className='line'></div>
+      <div className='actualdata'>
+    {
+      //When using the card compoent use the personalDetail as prop
+    }
+      </div>
     </div>
   );
 }
